@@ -1,0 +1,74 @@
+body {
+  background-color: #eaf8ff;
+  background-image: url("../images/result_bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.character {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.result {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.result .box {
+  min-height: 70px;
+  background-color: white;
+  margin-bottom: 15px;
+  border-radius: 20px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.result h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.result .jobs {
+  height: 200px;
+  display: flex;  /*자식 요소들이 수평 정렬 된다.*/
+  gap: 10px;
+
+}
+.result .job {
+  flex: 1;
+  background-color: white;
+  background-image: url("../images/result_star.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  border: 1px solid #ffe603;
+  border-radius: 20px;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result .lecture img {
+  margin-bottom: 40px;
+  width: 100%;
+}
